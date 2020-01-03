@@ -1,31 +1,16 @@
-# Call Recorder
+# Call Recorder 
 
-Android friendly!
+Credit goes to original developer, I Just did some modifications.
 
-Call Recorder with custom recording folder.
+Modifications done by me :
+1. A popup will appear asking if you want to record a particular call or not.
+2. Improved UI.
 
-MOST PHONES DOES NOT SUPPORT CALL RECORDING. Blame Google or your phone manufacturer not me!
-
-If it fails with high quality sound recording (voice line) this app will switch back to the MIC recording, no ads, open-source, GPLv3.
-
-Google knows about issue but do nothing, can read more here:
-
-https://code.google.com/p/android/issues/detail?id=206613#c13
-
-# Manual install
-
-    gradle installDebug
-
-# Translate
-
-If you want to translate 'Call Recorder' to your language  please read this:
-
-  * [HOWTO-Translate.md](/docs/HOWTO-Translate.md)
+Works best on Android 7+
 
 # Screenshots
 
-![shot](/docs/shot.png)
+![Alt text](https://imgur.com/a/Ya96FH5)
 
-# Contributors
+![Alt text](https://imgur.com/a/LgOQEfp)
 
-  * japaness translation thanks to @naofumi
