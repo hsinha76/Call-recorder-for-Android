@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+import com.android.build.OutputFile
+
+android {
+    compileSdkVersion 25
+
+    defaultConfig {
+        applicationId 'com.github.axet.callrecorder'
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 134
+        versionName "1.5.13"
+    }
+    signingConfigs {
+        release {
+            storeFile file(Location)
+            storePassword password
+            keyAlias = Alias
+            keyPassword password
+        }
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.axet:android-audio-library:1.0.72' // compile project(':android-audio-library')
+    testImplementation 'junit:junit:4.12'
+}
