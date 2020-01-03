@@ -10,7 +10,7 @@ Works best on Android 7+
 
 # Screenshots
 
-![Alt text](https://imgur.com/a/Ya96FH5)
+![Alt text](https://github.com/hsinha76/Call-recorder-for-Android/blob/master/Screenshot_20200103-133744.png)
 
-![Alt text](https://imgur.com/a/LgOQEfp)
+![Alt text](https://github.com/hsinha76/Call-recorder-for-Android/blob/master/Screenshot_20200103-133804.png)
 
